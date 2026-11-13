@@ -75,6 +75,28 @@ You can also register a new account from the registration page.
 
 ---
 
+## Screenshots
+
+### 1. User Dashboard (Task Management, Search & Status Filters)
+![User Dashboard](screenshots/03_user_dashboard.png)
+
+### 2. Login Page
+![Login Page](screenshots/01_login_page.png)
+
+### 3. Registration Page
+![Registration Page](screenshots/02_register_page.png)
+
+### 4. Search and Filter in Action
+![Search & Filter](screenshots/04_search_and_filter.png)
+
+### 5. Edit Task View
+![Edit Task](screenshots/05_edit_task_view.png)
+
+### 6. Admin Dashboard (Viewing All Users' Tasks)
+![Admin Dashboard](screenshots/06_admin_dashboard_all_tasks.png)
+
+---
+
 ## Roles and Permissions Explained
 
 ### Role: `user` (Default)
@@ -238,7 +260,8 @@ task-tracker/
 ├── register.php     # Registration page
 ├── logout.php       # Logout handler
 ├── index.php        # Main dashboard (task CRUD, search, filter)
-└── README.md        # This file
+├── screenshots/     # Application screenshots
+└── README.md        # Complete documentation & test report
 ```
 
 ## Known Limitations
