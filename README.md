@@ -276,4 +276,4 @@ task-tracker/
 
 ## AI Disclosure
 
-An AI coding assistant was used to help generate the initial code structure. After reviewing the generated code, one key change was made: the CSRF token validation was added to inline status-change forms in the task table, which the initial generated version had missed — without this fix, the status dropdown changes would have been rejected by the CSRF check.
+A major portion of the codebase was generated using an AI coding assistant, with my active guidance, prompt direction, and testing throughout the development process. After reviewing the generated code, one key change I made was adding CSRF token validation to the inline status-change forms in the task table, which the initial generated code had omitted — ensuring all state-changing requests are properly secured.
